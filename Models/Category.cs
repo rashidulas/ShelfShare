@@ -1,3 +1,6 @@
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
+
 namespace ShelfShare.Models
 {
     public class Category
@@ -8,4 +11,4 @@ namespace ShelfShare.Models
         public string Name { get; set; }
         public int DisplayOrder { get; set; }
     }
-}
+} 
